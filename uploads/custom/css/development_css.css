@@ -1,0 +1,330 @@
+/*
+  @Author : RJ(Rupesh Jorkar)
+  @Desc   : Css For Estimates Page
+  @Input  : 
+  @Output : Css
+  @Date   : 13/01/2016
+ */
+#first_time_hide {
+	display: none;
+}
+#first_time_hide_recurring {
+	display: none;
+}
+#first_time_show {
+	display: block;
+}
+#first_time_show_recurring {
+	display: block;
+}
+#second_time_hide {
+	display: none;
+}
+#third_time_hide {
+	display: none;
+}
+#fourth_time_hide {
+	display: none;
+}
+#add_autograph {
+	display: none;
+}
+#budget_ammount {
+	display: none;
+}
+#budget_ammount_show {
+	display: block;
+}
+#client_can_accept_online {
+	display: none;
+}
+#prospect_generate_show {
+	display: block;
+}
+#prospect_generate_hide {
+	display: none;
+}
+#client_amount_show {
+	display: block;
+}
+#client_amount_hide {
+	display: none;
+}
+#revenue_amount {
+	display: none;
+}
+#revenue_amount_show {
+	display: block;
+}
+#related_amount_show {
+	display: block;
+}
+#related_amount {
+	display: none;
+}
+#campaign_amount {
+	display: none;
+}
+#campaign_amount_show {
+	display: block;
+}
+#related_campaign_hide {
+	display: none;
+}
+#related_campaign_show {
+	display: block;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+	cursor: pointer !important;
+}
+#dragAndDropFiles > input {
+	display: none;
+}
+.image_part > label > h1 {
+	margin-top: 180px;
+}
+.img_show {
+	left: 28px;
+	position: absolute;
+	top: 28px;
+	z-index: 1111;
+}
+/*
+  @Author : Niral Patel
+  @Desc   : Css For PM dashborad
+  @Input  : 
+  @Output : Css
+  @Date   : 12/02/2016
+ */
+.count_box div {
+	background-color: #ffffff;
+	margin: 5px 10px;
+	padding: 10px;
+}
+.scrollbar {
+	float: left;
+	height: 150px;
+	overflow-y: scroll;
+	margin-bottom: 10px;
+}
+.progres {
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+	height: 30px;
+	margin-bottom: 20px;/*overflow: hidden;*/
+}
+.progres-bar-success {
+	background-image: linear-gradient(to bottom, #5cb85c 0px, #449d44 100%);
+	background-repeat: repeat-x;
+}
+.progres-bar {
+	background-color: #337ab7;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	height: 100%;
+	line-height: 20px;
+	text-align: center;
+	transition: width 0.6s ease 0s;
+	width: 0;
+}
+.project-text {
+font-size:13px, overflow: hidden;
+	position: relative;
+	text-align: right;
+	width: 170px;
+	float: left;
+	color: #000;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+.wd_rec_80 {
+	width: 80%;
+}
+.fl {
+	float: left;
+}
+.act_title_db { /*overflow: hidden; white-space: nowrap; max-width: 80px;padding-left: 3px;*/
+	font-weight: bold;
+	padding-right: 3px;
+}
+.act {
+	color: #000;
+	border: 1px solid #ccc;
+	padding: 0;
+}
+#display_list {
+	margin-top: 45px;
+}
+#project_data td {
+	padding: 5px;
+}
+.act-dv {
+	border-top: 1px solid #ccc;
+	margin-bottom: 2px;
+}
+.view_act {
+	color: #000;
+}
+.view_his {
+	float: left;
+	margin-top: 17px;
+	color: #fff;
+}
+#received {
+	padding: 5px;
+	background-color: #fff;
+	color: #000;
+	height: 202px;
+	margin-bottom: 5px;
+	float: none;
+}
+#progress_div {
+	color: #fff;
+	margin-top: 30px;
+}
+#send_message {
+	margin-top: 5px;
+}
+#status_font_icon {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, 'FontAwesome';
+}
+/*agile view*/
+.sortCost a:hover {
+	text-decoration: none;
+}
+.agili-view .coloum {
+	border-right: 1px solid #000;
+}
+.task-box {
+	border: 1px solid #000;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+.task-first, .task-second {
+	border-bottom: 1px solid #000;
+}
+.task-third {
+	padding: 2px;
+	margin-top: 2px;
+}
+.agileSortable {
+	min-height: 160px;
+}
+.remove_drag_img {
+	font-size: 20px;
+	font-weight: bold;
+	height: 20px;
+	position: absolute;
+	right: -13px;
+	top: -14px;
+	width: 20px;
+	z-index: 111111;
+	cursor: pointer;
+}
+.color_box {
+	float: left;
+	padding: 3px;
+	/*position: absolute;*/
+	text-align: center;
+	width: 100%;  color: #ffffff;
+}
+.color_box_agile {
+	padding: 3px;
+}
+.ui-helper-hidden-accessible {
+	display: none;
+}
+.ui-autocomplete {
+	z-index: 999999;
+}
+.pdf-container {
+	background-color: #ffffff;
+}
+.salesSort a:hover {
+	text-decoration: none!important
+}
+.cust-lang {
+	text-transform: capitalize;
+}
+.sortTask a:hover, .sortTask a:focus, .sortTask a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortEmailTemplateList a:hover, .sortEmailTemplateList a:focus, .sortEmailTemplateList a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortCurrencySettingsList a:hover, .sortCurrencySettingsList a:focus, .sortCurrencySettingsList a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortUserList a:hover, .sortUserList a:focus, .sortUserList a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortSettingsListtype a:hover, .sortSettingsListtype a:focus, .sortSettingsListtype a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortSettingsListStatus a:hover, .sortSettingsListStatus a:focus, .sortSettingsListStatus a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortSettingsList a:hover, .sortSettingsList a:focus, .sortSettingsList a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+.sortRoleList a:hover, .sortRoleList a:focus, .sortRoleList a:active {
+	text-decoration: none !important;
+	outline: none;
+}
+/*
+.sortEmailTemplateList a:hover, .sortEmailTemplateList a:active, .sortEmailTemplateList a:focus, .sortUserList a:hover, .sortUserList a:focus, .sortUserList a:active, .sortCurrencySettingsList a:hover, .sortSettingsListtype a:hover, .sortSettingsListStatus a:hover, .sortSettingsList a:hover, .sortRoleList a:hover{text-decoration:none !important; outline:none;}
+*/
+/*disha*/
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+	border-radius: 20px;
+}
+.toggle.ios .toggle-handle {
+	border-radius: 20px;
+}
+#progress_div p {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 2px 0;
+}
+.project-text-cust {
+	top: -39px;
+	display: block;
+	margin: 7px 0;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 18px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+/*disha- product Group Module*/
+ul.names {
+	overflow-y: scroll;
+	height: 185px;
+	overflow-x: hidden;
+}
+/*disha- product Module : 21/4/2016 */
+#products_list {
+	height: 185px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#map {
+	width: 100%;
+	height: 400px;
+	margin-top: 10px;
+}
+
+.font-bold {
+font-weight: bold;}
